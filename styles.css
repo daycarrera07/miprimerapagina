@@ -1,12 +1,12 @@
 body {
-    background-color: silver;
-    color:rgb(16, 15, 14);
+    background-color: rgb(219, 216, 216);
+    color:rgb(46, 104, 50);
 }
 h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 35px;
     padding: 30px;
-    color: blueviolet;
+    color: rgb(97, 31, 158);
 }
 h1 {
     font-family:'Cambria', Cochin, Georgia, Times;
@@ -45,7 +45,7 @@ main {
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(77, 122, 86);
   }
   
   
@@ -110,15 +110,20 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(44, 239, 203);
+    background-color: rgb(76, 101, 94);
     justify-content: center;
     min-height: 200px;
     text-align: center;
     width: 100%;
+    color: antiquewhite;
   }
 
   img {
     height: 200px;
+  }
+
+  .greeting {
+    text-align: center;
   }
   @media (max-width: 768px) {
     .column {
@@ -133,7 +138,7 @@ main {
   
     .button-menu-toggle {
       display: block;
-      background-color: white;
+      background-color: rgb(192, 248, 212);
       border:none;
       border-radius: 50px;
       padding: 0 24px;
@@ -145,7 +150,7 @@ main {
     .nav-links.nav-links-responsive {
       position: absolute;
       display: flex;
-      background-color: rgba(20,20,20,0.95);
+      background-color: rgba(115, 215, 205, 0.95);
       width: 100%;
       height: 100%;
       top: 70px;
